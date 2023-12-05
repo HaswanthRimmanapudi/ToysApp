@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346621732553",
+    "project_id": "toy-app-72119",
+    "storage_bucket": "toy-app-72119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346621732553:android:c41b32fafaf36b7d95cf18",
+        "android_client_info": {
+          "package_name": "com.haswanth.toysapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE6B4Vji6KsNXIF2h0vDapCyHsJ9HNvVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
