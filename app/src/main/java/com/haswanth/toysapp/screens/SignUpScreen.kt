@@ -35,9 +35,7 @@ import com.haswanth.toysapp.navigation.ToysAppRouter
 @Composable
 fun SignUpScreen(signupViewModel: SignupViewModel = viewModel()) {
 
-//    val text = remember {
-//        mutableStateOf("")
-//    }
+
 
     Box(
         modifier = Modifier.fillMaxSize(),
