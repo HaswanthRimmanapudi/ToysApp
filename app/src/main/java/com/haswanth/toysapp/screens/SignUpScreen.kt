@@ -130,5 +130,5 @@ fun SignUpScreen(signupViewModel: SignupViewModel = viewModel()) {
 @Preview
 @Composable
 fun DefaultPreviewOfSignUpScreen() {
-//    SignUpScreen()
+
 }
