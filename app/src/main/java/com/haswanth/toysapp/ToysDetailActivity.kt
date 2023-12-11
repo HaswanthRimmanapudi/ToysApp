@@ -179,7 +179,7 @@ fun MovieDetail(movie: Toy) {
                     .wrapContentWidth()
                     .heightIn(48.dp),
                 onClick = {
-//                    Toast.makeText(context, "Place Order", Toast.LENGTH_SHORT).show()
+
                     context.startActivity(
                         Intent(context, AddCartActivity::class.java)
                         .putExtra("toy_data", movie.name.toString())
