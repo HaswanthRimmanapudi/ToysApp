@@ -101,7 +101,7 @@ fun CameraView(
         )
     }
 }
-
+// Take photo function
 private fun takePhoto(
     filenameFormat: String,
     imageCapture: ImageCapture,
@@ -138,3 +138,4 @@ private suspend fun Context.getCameraProvider(): ProcessCameraProvider = suspend
         }, ContextCompat.getMainExecutor(this))
     }
 }
+//

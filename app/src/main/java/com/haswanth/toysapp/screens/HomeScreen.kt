@@ -114,6 +114,23 @@ fun HomeScreen(  homeViewModel: HomeViewModel = viewModel()) {
                             localContext.startActivity(Intent(localContext, ToysDetailActivity::class.java)
                                 .putExtra("toy_data", toy))
                         }
+
+                        Spacer(Modifier.size(20.dp))
+
+//                        GenreTitle(genreTitle = "Take a Pic From Camera")
+                        Text(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .wrapContentHeight()
+                                .clickable {
+                                    localContext.startActivity(Intent(localContext,UserProfileActivity::class.java))
+                                }
+                                .padding(5.dp),
+                            style = TextStyle(fontSize = 25.sp, fontWeight = FontWeight.Bold),
+                            text = "Take a Pic From Camera"
+                        )
+
+
                     }
                 })
 
@@ -144,7 +161,7 @@ fun ToyList(toyList: List<Toy>, onItemClick: (movie: Toy) -> Unit) {
         }
     })
 }
-
+//click function action
 @Composable
 fun MovieItemView(toy: Toy, onClick: (movie: Toy) -> Unit) {
     Column(horizontalAlignment = Alignment.CenterHorizontally,
