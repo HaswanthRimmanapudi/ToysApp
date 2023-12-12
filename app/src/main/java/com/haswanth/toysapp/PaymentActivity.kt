@@ -139,5 +139,5 @@ class PaymentActivity : ComponentActivity() {
 @Preview
 @Composable
 fun DefaultPreviewOfSignUpScreen() {
-//    Paymen()
+
 }
